@@ -1,0 +1,11 @@
+[plugin]
+name = "files"
+kind = "sidebar"
+version = "0.1.0"
+description = "Browse and open files from a cmux sidebar"
+
+[run]
+command = ["target/release/cmux-sidebar-files"]
+
+[build]
+command = ["cargo", "build", "--release"]
